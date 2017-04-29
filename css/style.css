@@ -12,3 +12,10 @@ footer {
 .logo {
 	background-color: red;
 }
+table {
+	width: 100%;
+}
+td {
+	vertical-align: top;
+	padding: 10px;
+}
