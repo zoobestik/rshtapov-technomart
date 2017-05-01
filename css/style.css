@@ -3,15 +3,29 @@
     padding: 10px; /* Поля вокруг текста */
     margin: auto; /* Выравниваем по центру */
    }
-header {
+.second-footer,
+.nav,
+.user-block {
 	background-color: darkblue;
 	color: white;
 }
+.logo a,
+.footer-nav a,
+.nav a,
+.user-block a {
+    color: white;
+}
+.second-footer a,
+.product a {
+	color: yellow;
+}
+.botton-block,
+.header-nav,
 .service {
 	background-color: lightgrey;
 }
-footer {
-	background-color: darkblue;
+.first-footer {
+	background-color: blue;
 	color: white;
 }
 .logo {
@@ -24,4 +38,7 @@ table {
 td {
 	vertical-align: top;
 	padding: 10px;
+}
+.last-price {
+	text-decoration: line-through;
 }
