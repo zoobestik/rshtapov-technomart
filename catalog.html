@@ -67,45 +67,47 @@
                 </div>
                 <h2>перфораторы</h2>
                 <section class="filter">
-                    <b>Фильтр:</b>
-                    <div class="price">
-                        <b>цена:</b>
-                    </div>
-                    <div class="brends">
-                        <b>производители:</b>
-                        <form action="#" method="post">
-                            <label>
-                                <input type="checkbox" name="bosch" checked="">BOSCH
-                            </label>
-                            <br><label>
-                                <input type="checkbox" name="interskol">ИНТЕРСКОЛ
-                            </label>
-                            <br><label>
-                                <input type="checkbox" name="makita" checked="">MAKITA
-                            </label>
-                            <br><label>
-                                <input type="checkbox" name="dewalt">DEWALT
-                            </label>
-                            <br><label>
-                                <input type="checkbox" name="hitachi">HITACHI
-                            </label>
-                        </form>
-                    </div>
-                    <div class="power">
-                        <b>питание:</b>
-                        <form action="#" method="post">
-                            <label>
-                                <input type="radio" name="battery" value="battery" checked>АККУМУЛЯТОРНЫЕ
-                            </label>
-                            <br><label>
-                                <input type="radio" name="circuit" value="circuit">
-                                СЕТЕВЫЕ
-                            </label>
-                        </form>
-                        <div class="btn">
-                            <input type="submit" name="show" value="Показать">
+                    <form action="#" method="get">
+                        <h3>Фильтр:</h3>
+                        <div class="price">
+                            <b>цена:</b>
                         </div>
-                    </div> 
+                        <div class="brends">
+                            <b>производители:</b>
+                            <ul>
+                                <li><label>
+                                    <input type="checkbox" name="bosch" checked="">BOSCH
+                                </label></li>
+                                <li><label>
+                                    <input type="checkbox" name="interskol">ИНТЕРСКОЛ
+                                </label></li>
+                                <li><label>
+                                    <input type="checkbox" name="makita" checked="">MAKITA
+                                </label></li>
+                                <li><label>
+                                    <input type="checkbox" name="dewalt">DEWALT
+                                </label></li>
+                                <li><label>
+                                    <input type="checkbox" name="hitachi">HITACHI
+                                </label></li>
+                            </ul>
+                        </div>
+                        <div class="power">
+                            <b>питание:</b>
+                            <ul>
+                                <li><label>
+                                    <input type="radio" name="battery" value="battery" checked>АККУМУЛЯТОРНЫЕ
+                                </label></li>
+                                <li><label>
+                                    <input type="radio" name="circuit" value="circuit">
+                                    СЕТЕВЫЕ
+                                </label></li>
+                            </ul>
+                            <div class="btn">
+                                <input type="submit" name="show" value="Показать">
+                            </div>
+                        </div>
+                    </form> 
                 </section>
                 <div class="right-block">
                     <div class="sorting">
