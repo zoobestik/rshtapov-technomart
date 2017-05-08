@@ -4,10 +4,12 @@
     margin: auto; /* Выравниваем по центру */
    }
 .second-footer,
-.nav,
-.user-block {
-	background-color: darkblue;
+.nav {
+	background-color: #293449;
 	color: white;
+}
+.user-block {
+	background-color: #293449;
 }
 .logo a,
 .footer-nav a,
@@ -22,14 +24,14 @@
 .botton-block,
 .header-nav,
 .service {
-	background-color: lightgrey;
+	background-color: #f2f6f8;
 }
 .first-footer {
-	background-color: blue;
+	background-color: #32425c;
 	color: white;
 }
 .logo {
-	background-color: red;
+	background-color: #ee3643;
 }
 table {
 	width: 100%;
