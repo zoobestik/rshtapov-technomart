@@ -1,46 +1,59 @@
+body {
+    background: url(../technomart-index.jpg);
+}
 .container {
-    width: 75%; /* Ширина элемента в пикселах */
-    padding: 10px; /* Поля вокруг текста */
-    margin: auto; /* Выравниваем по центру */
-   }
+    width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
 .second-footer,
 .nav {
-	background-color: #293449;
-	color: white;
+    background-color: #293449;
+    color: white;
 }
+
 .user-block {
-	background-color: #293449;
+    background-color: #293449;
 }
+
 .logo a,
 .footer-nav a,
 .nav a,
 .user-block a {
     color: white;
 }
+
 .second-footer a,
 .product-nav a {
-	color: yellow;
+    color: yellow;
 }
+
 .botton-block,
 .header-nav,
 .service {
-	background-color: #f2f6f8;
+    background-color: #f2f6f8;
 }
+
 .first-footer {
-	background-color: #32425c;
-	color: white;
+    background-color: #32425c;
+    color: white;
 }
+
 .logo {
-	background-color: #ee3643;
+    background-color: #ee3643;
 }
+
 table {
-	width: 100%;
-	margin: center;
+    width: 100%;
+    margin: center;
 }
+
 td {
-	vertical-align: top;
-	padding: 10px;
+    vertical-align: top;
+    padding: 10px;
 }
+
 .last-price {
-	text-decoration: line-through;
+    text-decoration: line-through;
 }
