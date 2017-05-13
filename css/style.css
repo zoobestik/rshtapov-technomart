@@ -1,8 +1,117 @@
+/*body {
+    background: url(../bg.jpg) no-repeat;
+    background-position: top center;
+}
+
+header,
+main,
+footer {
+    opacity: 0.6;
+}
+*/
 
 .container {
-    width: 960px;
+    clear: both;
+    display: table;
+    width: 940px;
     padding: 0 10px;
     margin: 0 auto;
+}
+
+div.user-block {
+    min-height: 42px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.logo {
+    width: 220px;
+    float: left;
+    text-align: center;
+    padding: 7px 0;
+}
+
+div.search {
+    box-sizing: border-box;
+    float: left;
+    width: 240px;
+    padding: 8px 10px;
+}
+
+input {
+    width: 140px
+}
+
+div.buy-block {
+    width: 470px;
+    float: right;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0px
+}
+
+li.bookmarks,
+li.cart,
+li.buy {
+    display: inline-block;
+    padding: 10px 0 13px;
+}
+
+li.bookmarks {
+    width: 140px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+li.cart {
+    width: 150px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+li.buy {
+    width: 150px;
+    text-align: center;
+    background-color: #63a63e;
+}
+
+.header-nav {
+    padding-top: 35px;
+    padding-bottom: 60px;
+}
+
+div.info {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+
+div.contakts {
+    float: left;
+    width: 270px;
+}
+
+div.user-menu-avtorized,
+div.user-menu {
+    float: right;
+    width: 300px;
+}
+
+nav.nav {
+    clear: both;
+    margin-top: 124px;
+}
+
+li.btn-nav {
+    display: inline-block;
+    width: auto;
+    padding: 16px 0 24px 53px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) margin-bottom: 42px;
 }
 
 .second-footer,
