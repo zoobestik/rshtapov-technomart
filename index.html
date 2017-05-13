@@ -68,17 +68,17 @@
     <main>
         <div class="container">
             <div class="main-block">
-                <div class="nav">
+                <div class="features">
                     <ul>
-                        <li class="materials">
+                        <li class="materials features-item">
                             <h4>Материалы</h4>
                             <a href="#" class="description">на любой вкус</a>
                         </li>
-                        <li class="tool">
+                        <li class="tool features-item">
                             <h4>Инструменты</h4>
                             <a href="#" class="description">на все случаи</a>
                         </li>
-                        <li class="transport">
+                        <li class="transport features-item">
                             <h4>Техника</h4>
                             <a href="#" class="description">для стройки</a>
                         </li>
@@ -93,11 +93,11 @@
                                 <img src="img/.icon-right.png" alt="след.">
                             </a>
                         </li>
-                        <li class="discounts">
+                        <li class="discounts features-item">
                             <h4>Скидки 50%</h4>
                             <a href="#" class="description">на 350 товаров</a>
                         </li>
-                        <li class="delivery">
+                        <li class="delivery features-item">
                             <h4>Доставка</h4>
                             <a href="#" class="description">бесплано</a>
                         </li>
@@ -156,28 +156,28 @@
                         <a href="#" class="all-brends">все производители</a>
                     </div>
                     <ul>
-                        <li>
+                        <li class="brend">
                             <a href="#"><img src="img/bosch.jpg" alt="Bosch"></a>
                         </li>
-                        <li>
+                        <li class="brend">
                             <a href="#"><img src="img/makita.jpg" alt="Makita"></a>
                         </li>
-                        <li>
+                        <li class="brend">
                             <a href="#"><img src="img/dewalt.jpg" alt="DeWalt"></a>
                         </li>
-                        <li>
+                        <li class="brend">
                             <a href="#"><img src="img/interscol.jpg" alt="Интерскол"></a>
                         </li>
-                        <li>
+                        <li class="brend">
                             <a href="#"><img src="img/hitachi.jpg" alt="Hitachi"></a>
                         </li>
-                        <li>
+                        <li class="brend">
                             <a href="#"><img src="img/lg.jpg" alt="LG"></a>
                         </li>
-                        <li>
+                        <li class="brend">
                             <a href="#"><img src="img/aeg.jpg" alt="AEG"></a>
                         </li>
-                        <li>
+                        <li class="brend">
                             <a href="#"><img src="img/metabo.jpg" alt="Metabo"></a>
                         </li>
                     </ul>
@@ -187,7 +187,7 @@
         <div class="service">
             <div class="container">
                 <div class="service-header">
-                    <h2>Сервисы</h2>
+                    <h3>Сервисы</h3>
                     <p>Хороший интернет-магазин отличается от плохого не только ценами!
                         <br>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
                 </div>
@@ -207,9 +207,9 @@
             </div>
         </div>
         <div class="about-us">
-            <div class="container">
+            <div class="container clearfix">
                 <section class="tehnomart">
-                    <h2>Компания "ТЕХНОМАРТ"</h2>
+                    <h3>Компания "ТЕХНОМАРТ"</h3>
                     <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушных любителей сэкономить на гастарбайтерах.</p>
                     <p>Мы можем доставить ваш товар в самые отдаленные точки России!
                         <br>Техномарт работает со многимиТранспортными компаниями:</p>
@@ -223,7 +223,7 @@
                     </div>
                 </section>
                 <section class="contakts">
-                    <h2>Контакты</h2>
+                    <h3>Контакты</h3>
                     <p>Вы можете забрать товар сами,
                         <br>заехав в наш офис:</p>
                     <div class="mini-map">
@@ -240,57 +240,62 @@
         </div>
     </main>
     <footer class="main-footer">
-        <div class="first-footer">
-            <div class="container">
+    <div class="first-footer">
+        <div class="container">
+            <div class="up-block">
                 <div class="logo">
                     <a href="index.html"><h2>ТЕХНОМАРТ</h2></a>
                 </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li class="footer-nav-item"><a href="index.html">Главная</a></li>
+                        <li class="footer-nav-item"><a href="#">Новости</a></li>
+                        <li class="footer-nav-item"><a href="catalog.html">Каталог</a></li>
+                        <li class="footer-nav-item"><a href="#">Доставка</a></li>
+                        <li class="footer-nav-item"><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="down-block">
                 <div class="footer-contakts">
                     <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
                         <br>+7 (812) 555-05-55</p>
                 </div>
-                <div class="footer-nav">
-                    <ul>
-                        <li><a href="index.html">Главная</a></li>
-                        <li><a href="#">Новости</a></li>
-                        <li><a href="catalog.html">Каталог</a></li>
-                        <li><a href="#">Доставка</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                </div>
                 <div class="product-nav">
                     <ul>
-                        <li><a href="#">Материалы</a></li>
-                        <li><a href="#">Техника</a></li>
-                        <li><a href="#">Инструмент</a></li>
-                        <li><a href="#">Спецпредложения</a></li>
+                        <li class="product-nav-item"><a href="#">Материалы</a></li>
+                        <li class="product-nav-item"><a href="#">Техника</a></li>
+                        <li class="product-nav-item"><a href="#">Инструмент</a></li>
+                        <li class="product-nav-item"><a href="#">Спецпредложения</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="second-footer">
-            <div class="container">
-                <div class="copiright">
-                    <p>2010-2017 Компания "Техномарт".
-                        <br>Все права защищены.</p>
-                </div>
-                <div class="social">
-                    <a class="vkontakte" href="#">VK</a>
-                    <a class="facebook" href="#">FB</a>
-                    <a class="instagram" href="#">Instagram</a>
-                </div>
-                <div class="feedback">
-                    <p>Обратная связь:
-                        <br><a class="mail" href="#">mail@htmlacademy.ru</a></p>
-                </div>
-                <div class="develop">
-                    <p>Разработано -
-                        <br><a class="develop-site" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
-                    </p>
-                </div>
+    </div>
+    <div class="second-footer">
+        <div class="container">
+            <div class="copyright">
+                <p>2010-2017 Компания "Техномарт".
+                    <br>Все права защищены.</p>
+            </div>
+            <div class="social">
+                <a class="vkontakte" href="#">VK</a>
+                <a class="facebook" href="#">FB</a>
+                <a class="instagram" href="#">Instagram</a>
+            </div>
+            <div class="feedback">
+                <p>Обратная связь:
+                    <br><a class="mail" href="#">mail@htmlacademy.ru</a></p>
+            </div>
+            <div class="develop">
+                <p>Разработано -
+                    <br><a class="develop-site" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+                </p>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
+
 </body>
 
 </html>

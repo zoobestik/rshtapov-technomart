@@ -1,4 +1,4 @@
-/*body {
+body {
     background: url(../bg.jpg) no-repeat;
     background-position: top center;
 }
@@ -8,13 +8,11 @@ main,
 footer {
     opacity: 0.6;
 }
-*/
 
 .container {
     clear: both;
     display: table;
     width: 940px;
-    padding: 0 10px;
     margin: 0 auto;
 }
 
@@ -110,8 +108,200 @@ nav.nav {
 li.btn-nav {
     display: inline-block;
     width: auto;
-    padding: 16px 0 24px 53px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) margin-bottom: 42px;
+    padding: 18px 0 24px 61px;
+}
+
+header {
+    margin-bottom: 58px;
+}
+
+div.features {
+    clear: both;
+    display: table;
+}
+
+li.features-item {
+    display: inline-block;
+    width: 298px;
+    vertical-align: top;
+    margin-bottom: 20px;
+    padding: 22px 0;
+}
+
+li.slyder {
+    float: left;
+    width: 618px;
+    height: 268px;
+    vertical-align: top;
+    margin-right: 21px;
+    margin-bottom: 50px;
+    background: url(../img/slyde.jpg) no-repeat;
+}
+
+li.materials {
+    margin-right: 18px;
+}
+
+li.tool {
+    margin-right: 18px;
+    background-color: #4aafde;
+}
+
+li.transport {
+    background-color: #cc79d1;
+}
+
+li.discounts {
+    background-color: #85d179;
+}
+
+li.materials,
+li.delivery {
+    background-color: #f6b22d;
+}
+
+div.header-brend,
+div.header-product {
+    background-color: #f7f3ec;
+    padding: 22px;
+    margin-bottom: 20px;
+}
+
+div.popular-product {
+    clear: both;
+    display: table;
+}
+
+.prewiew-product {
+    float: left;
+    width: 216px;
+    height: 316px;
+    border: 2px solid #e5e5e5;
+    margin-right: 20px;
+}
+
+.prewiew-product:last-child {
+    margin-right: 0;
+}
+
+section.product {
+    clear: both;
+    display: table;
+    margin-bottom: 20px;
+}
+
+li.brend {
+    display: inline-block;
+    vertical-align: top;
+    width: 214px;
+    height: 142px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+    border: 2px solid #e5e5e5;
+}
+
+li.brend:nth-child(4) {
+    margin-right: 0;
+}
+
+li.brend:nth-child(8) {
+    margin-right: 0;
+}
+
+div.service {
+    margin-top: 68px;
+    height: 520px;
+    margin-bottom: 73px;
+}
+
+div.about-us {
+    min-height: 465px;
+}
+
+section.tehnomart {
+    float: left;
+    width: 540px;
+}
+
+section.contakts {
+    float: right;
+    width: 300px;
+}
+
+div.full-map {
+    display: none;
+}
+
+div.footer-nav {
+    float: right;
+    width: 560px;
+}
+
+.up-block div.logo {
+    padding-top: 20px;
+    height: 35px;
+}
+
+li.footer-nav-item {
+    display: inline-block;
+    width: auto;
+    padding: 38px 0 15px 49px;
+}
+
+li.product-nav-item {
+    display: inline-block;
+    width: auto;
+    padding: 27px 0 32px 46px;
+}
+
+div.down-block,
+div.up-block {
+    clear: both;
+    display: table;
+    width: 940px;
+}
+
+div.footer-contakts {
+    padding: 11px 0 0 4px;
+    float: left;
+    width: 376px;
+}
+
+div.product-nav {
+    float: right;
+    width: 540px;
+}
+
+div.copyright {
+    float: left;
+    width: 240px;
+    padding-top: 21px;
+    margin-right: 140px;
+}
+
+div.social {
+    float: left;
+    width: 162px;
+    padding-top: 52px;
+    padding-left: 18px;
+    margin-right: 80px;
+}
+
+div.feedback {
+    float: left;
+    width: 150px;
+    padding-top: 23px;
+}
+
+div.develop {
+    float: right;
+    width: 110px;
+    padding-top: 23px;
+}
+
+.clearfix::after {
+    clear: both;
+    display: table;
 }
 
 .second-footer,
@@ -143,6 +333,7 @@ li.btn-nav {
 }
 
 .first-footer {
+    min-height: 193px;
     background-color: #32425c;
     color: white;
 }
