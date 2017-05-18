@@ -16,7 +16,7 @@ footer {
     margin: 0 auto;
 }
 
-div.user-block {
+.user-block {
     min-height: 42px;
 }
 
@@ -25,14 +25,14 @@ h2 {
     margin-bottom: 0px;
 }
 
-div.logo {
+.logo {
     width: 220px;
     float: left;
     text-align: center;
     padding: 7px 0;
 }
 
-div.search {
+.search {
     box-sizing: border-box;
     float: left;
     width: 240px;
@@ -43,7 +43,7 @@ input {
     width: 140px
 }
 
-div.buy-block {
+.buy-block {
     width: 470px;
     float: right;
 }
@@ -83,24 +83,24 @@ li.buy {
     padding-bottom: 60px;
 }
 
-div.info {
+.info {
     float: left;
     width: 300px;
     margin-right: 20px;
 }
 
-div.contakts {
+.contakts {
     float: left;
     width: 270px;
 }
 
-div.user-menu-avtorized,
-div.user-menu {
+.user-menu-avtorized,
+.user-menu {
     float: right;
     width: 300px;
 }
 
-nav.nav {
+.nav {
     clear: both;
     margin-top: 124px;
 }
@@ -115,7 +115,7 @@ header {
     margin-bottom: 58px;
 }
 
-div.features {
+.features {
     clear: both;
     display: table;
 }
@@ -133,17 +133,17 @@ li.slyder {
     width: 618px;
     height: 268px;
     vertical-align: top;
-    margin-right: 21px;
+    margin-right: 22px;
     margin-bottom: 50px;
     background: url(../img/slyde.jpg) no-repeat;
 }
 
 li.materials {
-    margin-right: 18px;
+    margin-right: 22px;
 }
 
 li.tool {
-    margin-right: 18px;
+    margin-right: 22px;
     background-color: #4aafde;
 }
 
@@ -160,14 +160,14 @@ li.delivery {
     background-color: #f6b22d;
 }
 
-div.header-brend,
-div.header-product {
+.header-brend,
+.header-product {
     background-color: #f7f3ec;
     padding: 22px;
     margin-bottom: 20px;
 }
 
-div.popular-product {
+.popular-product {
     clear: both;
     display: table;
 }
@@ -184,7 +184,7 @@ div.popular-product {
     margin-right: 0;
 }
 
-section.product {
+.product {
     clear: both;
     display: table;
     margin-bottom: 20px;
@@ -208,13 +208,13 @@ li.brend:nth-child(8) {
     margin-right: 0;
 }
 
-div.service {
+.service {
     margin-top: 68px;
     height: 520px;
     margin-bottom: 73px;
 }
 
-div.about-us {
+.about-us {
     min-height: 465px;
 }
 
@@ -228,11 +228,11 @@ section.contakts {
     width: 300px;
 }
 
-div.full-map {
+.full-map {
     display: none;
 }
 
-div.footer-nav {
+.footer-nav {
     float: right;
     width: 560px;
 }
@@ -254,32 +254,32 @@ li.product-nav-item {
     padding: 27px 0 32px 46px;
 }
 
-div.down-block,
-div.up-block {
+.down-block,
+.up-block {
     clear: both;
     display: table;
     width: 940px;
 }
 
-div.footer-contakts {
+.footer-contakts {
     padding: 11px 0 0 4px;
     float: left;
     width: 376px;
 }
 
-div.product-nav {
+.product-nav {
     float: right;
     width: 540px;
 }
 
-div.copyright {
+.copyright {
     float: left;
     width: 240px;
     padding-top: 21px;
     margin-right: 140px;
 }
 
-div.social {
+.social {
     float: left;
     width: 162px;
     padding-top: 52px;
@@ -287,13 +287,13 @@ div.social {
     margin-right: 80px;
 }
 
-div.feedback {
+.feedback {
     float: left;
     width: 150px;
     padding-top: 23px;
 }
 
-div.develop {
+.develop {
     float: right;
     width: 110px;
     padding-top: 23px;
