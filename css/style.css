@@ -257,7 +257,24 @@ section.contakts {
     width: 700px;
 }
 
-article:nth-child(3n) {
+.sorting-block {
+    background-color: #f7f3ec;
+}
+
+.sorting-block h3 {
+    display: inline-block;
+    margin: 7px 0px;
+}
+
+.sorting {
+    display: inline-block;
+}
+
+.sorting-link {
+    display: inline-block;
+}
+
+.product-block .prewiew-product:nth-child(3n) {
     margin-right: 0;
 }
 
