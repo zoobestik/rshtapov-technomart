@@ -246,13 +246,51 @@ section.contakts {
 }
 
 .filter {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     float: left;
     width: 220px;
 }
 
+.filter h3 {
+    background-color: #f7f3ec;
+    margin: 0px 0px;
+    padding: 7px 0px;
+}
+
+.price h4 {
+    margin: 21px 0px;
+}
+
+.price input {
+    width: 95px;
+    height: 35px;
+}
+
+.bar {
+    border: 0px solid white;
+    background-color: #f7f3ec;
+    min-height: 80px;
+    margin-bottom: 5px;
+}
+
+.price {
+    padding-bottom: 21px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.checkbox-brend {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.filter .brends {
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.filter .btn {
+    margin-top: 85px;
+}
+
 .right-block {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     float: right;
     width: 700px;
 }
@@ -278,13 +316,26 @@ section.contakts {
     margin-right: 0;
 }
 
+.product-block .prewiew-product {
+    margin-top: 19px;
+}
+
 .pages {
     clear: both;
     display: table;
+    padding: 51px 0px 15px 0px;
 }
 
 .page {
     display: inline-block;
+    border: 2px solid #e5e5e5;
+    padding: 8px 13px;
+    margin-right: 10px;
+}
+
+.botton-block {
+    margin-top: 48px;
+    min-height: 257px;
 }
 
 .footer-nav {
