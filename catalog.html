@@ -102,32 +102,32 @@
                             </div>
                         </div>
                         <input type="text" name="min-price" value="">
-                        <input type="text" name="max=price" value="">
+                        <input type="text" name="max-price" value="">
                     </div>
                     <div class="brends">
                         <h4>производители:</h4>
-                        <ul>
-                            <li>
+                        <ul class="checkbox-brend-list">
+                            <li class="checkbox-brend">
                                 <label>
                                     <input type="checkbox" name="bosch" checked>bosch
                                 </label>
                             </li>
-                            <li>
+                            <li class="checkbox-brend">
                                 <label>
                                     <input type="checkbox" name="interskol">интерскол
                                 </label>
                             </li>
-                            <li>
+                            <li class="checkbox-brend">
                                 <label>
                                     <input type="checkbox" name="makita" checked>makita
                                 </label>
                             </li>
-                            <li>
+                            <li class="checkbox-brend">
                                 <label>
                                     <input type="checkbox" name="dewalt">dewalt
                                 </label>
                             </li>
-                            <li>
+                            <li class="checkbox-brend">
                                 <label>
                                     <input type="checkbox" name="hitachi">hitachi
                                 </label>
@@ -155,16 +155,22 @@
                 </form>
             </section>
             <div class="right-block">
-                <div class="sorting">
+                <div class="sorting-block">
                     <h3>Сортировка:</h3>
-                    <ul>
-                        <li><a href="#">По цене</a></li>
-                        <li><a href="#">По типу</a></li>
-                        <li><a href="#">По функционалу</a></li>
-                        <li>
+                    <ul class="sorting">
+                        <li class="sorting-link sort-price">
+                            <a href="#">По цене</a>
+                        </li>
+                        <li class="sorting-link sort-type">
+                            <a href="#">По типу</a>
+                        </li>
+                        <li class="sorting-link sort-function">
+                            <a href="#">По функционалу</a>
+                        </li>
+                        <li class="sorting-link sort-up-price">
                             <a href="#"><img src="img/icon-up-dir.png" width="11" height="10" alt="от меньшей"></a>
                         </li>
-                        <li>
+                        <li class="sorting-link sort-down-price">
                             <a href="#"><img src="img/icon-down-dir.png" width="11" height="10" alt="от большей"></a>
                         </li>
                     </ul>
