@@ -1,6 +1,7 @@
 body {
-    background: url(../bg-catalog.jpg) no-repeat;
+    background: url(../bg.jpg) no-repeat;
     background-position: top center;
+    font-family: "Cuprum"
 }
 
 header,
@@ -10,7 +11,7 @@ footer {
 }
 
 .container {
-    clear: both;
+    position: relative;
     display: table;
     width: 940px;
     margin: 0 auto;
@@ -25,50 +26,79 @@ h2 {
     margin-bottom: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .logo {
+    position: absolute;
+    border-bottom: 4px solid #b52933;
     width: 220px;
-    float: left;
     text-align: center;
     padding: 7px 0;
 }
 
+.logo a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo h2 {
+    padding: 3px 0px;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
 .search {
+    color: #ffffff;
+    position: absolute;
+    left: 227px;
+    font-size: 17px;
+    line-height: 18px;
     box-sizing: border-box;
-    float: left;
     width: 240px;
-    padding: 8px 10px;
+    padding: 10px;
+    padding-left: 40px;
 }
 
 .search input {
+    background-color: #293449;
+    border: 0px solid #293449;
     width: 140px
 }
 
 .buy-block {
-    width: 470px;
     float: right;
+    font-size: 17px;
+    line-height: 18px;
+    width: 470px;
 }
 
 ul {
     margin: 0;
-    padding-left: 0px
+    padding-left: 0px;
+    color: #ffffff;
 }
 
 li.bookmarks,
 li.cart,
 li.buy {
+    vertical-align: top;
     display: inline-block;
-    padding: 10px 0 13px;
+    padding: 12px 0 12px;
 }
 
 li.bookmarks {
-    width: 140px;
-    margin-right: 10px;
+    width: 141px;
+    margin-right: 9px;
     text-align: right;
 }
 
 li.cart {
-    width: 150px;
-    margin-right: 10px;
+    width: 135px;
+    margin-right: 25px;
     text-align: right;
 }
 
@@ -79,13 +109,18 @@ li.buy {
 }
 
 .header-nav {
-    padding-top: 35px;
+    padding-top: 33px;
     padding-bottom: 58px;
 }
 
 .info {
+    font-size: 16px;
+    line-height: 23px;
+    font-style: italic;
+    padding-left: 52px;
+    color: #ef5c67;
     float: left;
-    width: 300px;
+    width: 245px;
     margin-right: 20px;
 }
 
@@ -94,21 +129,86 @@ li.buy {
     width: 270px;
 }
 
+.phone {
+    border: 2px solid #ffffff;
+    font-size: 21px;
+    line-height: 18px;
+    text-align: right;
+    margin-top: 14px;
+    margin-bottom: 0px;
+    padding: 11px 49px 11px 0px;
+    color: #e9292a;
+}
+
+.adress {
+    font-size: 14px;
+    line-height: 24px;
+    color: #32425c;
+    padding-left: 12px;
+    margin-top: 4px;
+}
+
 .user-menu-avtorized,
 .user-menu {
     float: right;
     width: 300px;
+    margin-top: 13px;
+}
+
+.user-menu li {
+    display: inline-block;
+    background-color: #ffffff;
+    font-size: 21px;
+    line-height: 18px;
+    margin-left: 5px;
+}
+
+.login {
+    width: 95px;
+    text-align: right;
+    padding: 13px;
+    padding-right: 28px;
+}
+
+.registration {
+    width: 150px;
+    text-align: center;
+    padding: 13px 0;
 }
 
 .nav {
     clear: both;
+    border-bottom: 5px solid #293449;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+ul.nav {
     margin-top: 124px;
 }
 
-li.btn-nav {
+.nav li {
     display: inline-block;
-    width: auto;
-    padding: 18px 0 24px 61px;
+    font-size: 17px;
+    line-height: 17px;
+    vertical-align: top;
+}
+
+.nav li:first-child a {
+    padding-left: 51px;
+}
+
+.nav li:last-child a {
+    padding-right: 55px;
+}
+
+.btn-nav a {
+    display: block;
+    padding: 21px 30.5px 17px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .main-block {
